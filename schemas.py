@@ -6,5 +6,3 @@ class JobCreate(BaseModel):
     callback_url: str
     callback_token: str
     algorithm_name: str
-
-
