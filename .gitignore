@@ -1,0 +1,43 @@
+# Environnement virtuel
+venv/
+.env
+*.env
+
+# Fichiers Python inutiles
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.temp
+*.pid
+
+# Configs locales / secrets
+.env.local
+.env.*
+
+# Cache des éditeurs
+.vscode/
+.idea/
+
+# Cache Python
+.pytest_cache/
+.mypy_cache/
+__pycache__/
+
+# Build / distribution
+build/
+dist/
+*.egg-info/
+
+# Docker
+docker-compose.override.yml
+
+# Système
+.DS_Store
+Thumbs.db
+
